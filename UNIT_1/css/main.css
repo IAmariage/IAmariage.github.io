@@ -1,9 +1,59 @@
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFF99;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: #006080;
+    font-family: "georgia";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu li a:hover {
+    background-color: #D8D8D8;
+}
+#menu .active {
+    background-color: #D8D8D8;
+}
 body {
-	background-color: orange;
+	background-color:#E8E8E8;
 }
 h1 {
-	color:white;
+	font-family: "georgia";
+	color:#006080;
+	font-size:300%; 
+	font-style: italic;
+	text-align: center;
+}
+h2, h3, h4 {
+	font-family: "georgia";
+	text-align: center;
+	color:#006666;
+	font-style: italic;
+}
+img.photocouple{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 p {
-	color:white;
+	text-align: center;
+	font-style: normal;
+	color: grey;
 }
+ul {
+	list-style-type: none;
+}
+li {
+	text-align: center;
+}
+
