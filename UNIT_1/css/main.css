@@ -1,31 +1,12 @@
 #menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: left;
-    background-color: #FFFF99;
-}
-
-#menu li {
-    float: left;
-}
-
-#menu li a {
-    display: block;
-    color: #006080;
-    font-family: "Courier new", sans-serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-#menu li a:hover {
-    background-color: #D8D8D8;
-}
-#menu .active {
-    background-color: #D8D8D8;
+    position: fixed;
+  margin-left: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
 }
 body {
-	background-color:#E8E8E8;
+	background-color:#B2CCE8;
 }
 h1 {
 	font-family: "georgia";
@@ -56,4 +37,10 @@ ul {
 li {
 	text-align: center;
 }
-
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
