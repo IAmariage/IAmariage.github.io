@@ -2,7 +2,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: left;
     background-color: #FFFF99;
 }
 
@@ -13,7 +13,7 @@
 #menu li a {
     display: block;
     color: #006080;
-    font-family: "georgia";
+    font-family: "Courier new", sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Le jour du mariage</title>
+</head>
+<body>
+<nav id="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="lesmaries.jpg">Les mariés</a></li>
+            <li><a href="lieu.asp">Le jour du mariage</a></li>
+            <li><a href="laregion.asp">La région</a></li>
+        </ul>
+    </nav>
+ <h2>Trouvez toutes les informations dont vous avez besoin pour profiter pleinement du mariage.</h2>
+ <h3>Ou le mariage se passe-t-il?</h3>
+    <p>Isabelle et Arnaud sont ravis de vous recevoir pour:</p>
+    <ul class="list-unstyled">
+        <li>Le mariage civil a la mairie du 15eme arrondissement</li>
+        <li>Le mariage religieux aura lieu a l'eglise XXX</li>
+        <li>Le cocktail a partir de 16h dans la salle de reception XX</li>
+        <li>Le diner au meme endroit (invitation obligatoire)</li>
+        <li>La soiree se trouvera dans la salle attenente au lieu de reception</li>
+    </ul>
+    <p>Les plus beaux maries ont hate de vous retrouver pour celebrer ce moment important avec vous et ils vous disent au 17 Juillet 2017.</p>
+ <h3>Mais qui sont-ils?</h3>
+</body>
+</html>
