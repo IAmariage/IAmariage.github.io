@@ -1,0 +1,62 @@
+#titre h1 {
+	font-family: "Helvetica Neue",sans-serif;
+	color:#FFFFFF;
+	font-size:500%; 
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#titre {
+	background-color: #EBDA95;
+	padding-top:  100px;
+	padding-bottom: 100px;
+}
+#menu {
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
+}   
+#menu ul {
+    padding: 20px;
+    margin-left: 250px;
+	line-height: 2;
+	text-decoration-style: none;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size:300%;
+	text-transform: uppercase;
+	color: white;
+	list-style-type: none;
+}
+#menu a {
+	text-decoration: none;
+	color: white;
+}
+#menu a:hover {
+	color: #87ADF2;
+}
+img.photocouple{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	border: solid 4px #87ADF2;
+}
+#lesmaries {
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
+}
+#datedumariage {
+	padding: 100px 0 100px;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size:100%;
+	text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
+}
+#lieudereception {
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
+}
+#laregion {
+	padding: 100px 0 100px;
+}

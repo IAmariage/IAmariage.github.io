@@ -1,46 +1,53 @@
-#menu {
-    position: fixed;
-  margin-left: 0;
-  top: 50%;
-  width: 8em;
-  margin-top: -2.5em;
-}
-body {
-	background-color:#B2CCE8;
-}
-h1 {
-	font-family: "georgia";
-	color:#006080;
-	font-size:300%; 
-	font-style: italic;
+#titre {
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#FFFFFF;
+	font-size:500%; 
+	font-style: normal;
 	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
+	background: url("photo1.jpg");
 }
-h2, h3, h4 {
-	font-family: "georgia";
-	text-align: center;
-	color:#006666;
-	font-style: italic;
+ul {
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+}    
+span:hover + div {
+    display: block;
 }
 img.photocouple{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	float: none;
+	border: solid 4px #87ADF2;
 }
-p {
-	text-align: center;
-	font-style: normal;
-	color: grey;
+#lesmaries {
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
 }
-ul {
-	list-style-type: none;
+#datedumariage {
+	padding: 100px 0 100px;
 }
-li {
-	text-align: center;
+#lieudereception {
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
 }
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+#laregion {
+	padding: 100px 0 100px;
 }
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#button {
+	margin-left: 250px;
+	line-height: 2;
+	text-decoration: none;
+  	font-family: "Helvetica Neue",sans-serif;
+  	font-size:300%;
+ 	text-transform: uppercase;
+  	color: white;
+ 	padding: 100px 0 100px;
