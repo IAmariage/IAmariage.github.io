@@ -42,16 +42,48 @@ img.photocouple{
 	border: solid 4px #87ADF2;
 }
 #lesmaries {
-	padding: 100px 0 100px;
+	padding: 50px 0 100px;
 	background-color: #EBDA95;
+}
+#data ol {
+	display: block;
+	float: none;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size:100%;
+	padding-right: 50px;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	font-size: 200%;
+}
+#data div {
+	display:none;
+}
+#data a:hover + div {
+	display: inline-block;
+}
+#data div {
+	float: right;
+}
+#data {
+	padding: 100px 0 100px;
+	background-color: #87ADF2;
 }
 #datedumariage {
 	padding: 100px 0 100px;
 	font-family: "Helvetica Neue",sans-serif;
-	font-size:100%;
+	font-size:1	00%;
 	text-transform: uppercase;
 	text-align: center;
-	text-transform: uppercase;
+	color: #87ADF2;
+}
+#datedumariage h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 400%;
+	text-transform: capitalize;
 }
 #lieudereception {
 	padding: 100px 0 100px;
