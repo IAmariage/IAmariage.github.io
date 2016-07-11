@@ -1,0 +1,94 @@
+#titre h1 {
+	font-family: "Helvetica Neue",sans-serif;
+	color:#FFFFFF;
+	font-size:500%; 
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#titre {
+	background-color: #EBDA95;
+	padding-top:  100px;
+	padding-bottom: 100px;
+}
+#menu {
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
+}   
+#menu ul {
+    padding: 20px;
+    margin-left: 250px;
+	line-height: 2;
+	text-decoration-style: none;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size:300%;
+	text-transform: uppercase;
+	color: white;
+	list-style-type: none;
+}
+#menu a {
+	text-decoration: none;
+	color: white;
+}
+#menu a:hover {
+	color: #87ADF2;
+}
+img.photocouple{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	border: solid 4px #87ADF2;
+}
+#lesmaries {
+	padding: 50px 0 100px;
+	background-color: #EBDA95;
+}
+#data ol {
+	display: block;
+	float: none;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size:100%;
+	padding-right: 50px;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	font-size: 200%;
+}
+#data div {
+	display:none;
+}
+#data a:hover + div {
+	display: inline-block;
+}
+#data div {
+	float: right;
+}
+#data {
+	padding: 100px 0 100px;
+	background-color: #87ADF2;
+}
+#datedumariage {
+	padding: 100px 0 100px;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size:1	00%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #87ADF2;
+}
+#datedumariage h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 400%;
+	text-transform: capitalize;
+}
+#lieudereception {
+	padding: 100px 0 100px;
+	background-color: #EBDA95;
+}
+#laregion {
+	padding: 100px 0 100px;
+}
