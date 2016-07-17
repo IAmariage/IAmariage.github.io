@@ -1,7 +1,8 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 #titre h1 {
 	font-family: "Helvetica Neue",sans-serif;
 	color:#FFFFFF;
-	font-size:500%; 
+	font-size: 3em;
 	font-style: normal;
 	text-align: center;
 	text-transform: uppercase;
@@ -11,10 +12,13 @@
 	background-color: #EBDA95;
 	padding-top:  100px;
 	padding-bottom: 100px;
+	min-height: 100vh;
+	padding: 20em 0;
 }
 #menu {
-	padding: 100px 0 100px;
+	/* padding: 100px 0 100px; */
 	background-color: #EBDA95;
+	text-align: center;
 }   
 #menu ul {
     padding: 20px;
@@ -30,6 +34,10 @@
 #menu a {
 	text-decoration: none;
 	color: white;
+	font-size: 1.5em;
+	display: inline-block;
+	margin: 0 1em;
+	padding: 1em;
 }
 #menu a:hover {
 	color: #87ADF2;
@@ -40,6 +48,7 @@ img.photocouple{
 	margin-right: auto;
 	float: none;
 	border: solid 4px #87ADF2;
+	height: 100vh;
 }
 #lesmaries {
 	padding: 50px 0 100px;
@@ -79,6 +88,8 @@ img.photocouple{
 	text-transform: uppercase;
 	text-align: center;
 	color: #87ADF2;
+	background: orange;
+	height: 100vh;
 }
 #datedumariage h1 {
 	font-family: helvetica, sans-serif;
