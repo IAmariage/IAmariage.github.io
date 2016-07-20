@@ -2,7 +2,7 @@
 #titre{
 	height: 100vh;
 	margin: auto;
-    background-color: blue;
+    background-image: url("images/ciel.png");
     border: 1px black solid;
     padding: 20px;
 }
@@ -66,7 +66,7 @@ img.photocouple{
 	padding: 100px 0 100px;
 	height: 100vh;
 }
-#laregion {
+#lestemoins {
 	height: 100vh;
 	padding: 100px 0 100px;
 }
