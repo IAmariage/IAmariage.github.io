@@ -1,9 +1,11 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 #titre{
 	height: 100vh;
-	background-image: url(images/sky.jpg);
-	background-repeat:no-repeat;
 	margin: auto;
+    background-color: blue;
+    border: 1px black solid;
+    padding: 20px;
+}
 }
 #menu {
 	position: fixed;
