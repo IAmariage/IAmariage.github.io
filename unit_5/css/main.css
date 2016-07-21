@@ -1,14 +1,17 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 #titre{
-	height: 100vh;
+	min-height: 100vh;
 	margin: auto;
-    background-image: url("images/ciel.png");
+    background-color: #FFED74;
+    background-repeat: none;
+    background-size: cover;
     border: 1px black solid;
     padding: 20px;
 }
-}
 #menu {
 	position: fixed;
+	margin-bottom: 3em;
+	background-color: #E8C66A;
 }   
 #menu a {
 	text-decoration: none;
@@ -36,13 +39,15 @@ img.photocouple{
 	border-radius: 50%;
 	border: solid 4px #87ADF2;
 	height: 70vh;
+	margin-top: 2em;
 }
 #datedumariage {
 	padding: 10px 0 100px;
 	font-family: "Helvetica Neue",sans-serif;
 	color: #87ADF2;
 	text-align: center; 		
-	height: 100vh;
+	min-height: 100vh;
+	background-color: #FFE2B8;
 }
 #datedumariage h1 {
 	font-family: helvetica, sans-serif;
@@ -64,9 +69,11 @@ img.photocouple{
 }
 #lieudereception {
 	padding: 100px 0 100px;
-	height: 100vh;
+	min-height: 100vh;
+	background-color: #FFE2B8;
 }
 #lestemoins {
-	height: 100vh;
+	min-height: 100vh;
 	padding: 100px 0 100px;
+	background-color: #FFE2B8;
 }
