@@ -111,16 +111,34 @@ img.photocouple{
 	text-align: center;
 }
 #temoinsisabelle {
-	display: inline-block;
-	float: left;
-	margin:1.7em;
-	padding: 0 4em;
+    padding: 10px;
+    float: left;
+    width: 40%;
+}
+#temoinsisabelle1 {
+    padding: 10px;
+    float: left;
+    width: 40%;
+}
+#temoinsisabelle2 {
+    padding: 10px;
+    float: left;
+    width: 40%;
 }
 #temoinsarnaud {
-	display: inline-block;
-	float: left;
-	margin:1.7em;
-	padding: 0 4em;
+    padding: 10px;
+    float: right;   
+    width: 40%;
+}
+#temoinsarnaud1 {
+    padding: 10px;
+    float: right;   
+    width: 40%;
+}
+#temoinsarnaud2 {
+    padding: 10px;
+    float: right;   
+    width: 40%;
 }
 #lescadeaux {
 	min-height: 100vh;
