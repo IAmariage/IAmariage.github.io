@@ -42,7 +42,7 @@ img.photocouple{
 	height: 60vh;
 }
 #datedumariage {
-	padding: 10px 0 100px;
+	padding: 100px 0 100px;
 	font-family: "Helvetica Neue",sans-serif;
 	color: #EBDA95;
 	text-align: center; 		
@@ -90,8 +90,8 @@ img.photocouple{
 	padding: 100px 0 100px;
 }
 #lestemoins img{
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 50px;
+	margin-right: 50px;
 	border-radius: 50%;
 	height: 20vh;
 }
@@ -109,35 +109,38 @@ img.photocouple{
 	font-size: 1em;
 	font-style: normal;
 	text-align: center;
+	margin-left: 80px;
 }
 #temoinsisabelle {
     padding: 10px;
+    margin-left: 80px;
     float: left;
     width: 40%;
 }
 #temoinsisabelle1 {
-    padding: 10px;
+    padding: 30px;
     float: left;
     width: 40%;
 }
 #temoinsisabelle2 {
-    padding: 10px;
+    padding: 30px;
     float: left;
     width: 40%;
 }
 #temoinsarnaud {
     padding: 10px;
+    margin-right: 80px;
     float: right;   
     width: 40%;
 }
 #temoinsarnaud1 {
-    padding: 10px;
-    float: right;   
+    padding: 30px;
+    float: left;   
     width: 40%;
-}
+ }
 #temoinsarnaud2 {
-    padding: 10px;
-    float: right;   
+    padding: 30px;
+    float: left;   
     width: 40%;
 }
 #lescadeaux {
