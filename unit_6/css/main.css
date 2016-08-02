@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-image: url('../images/ciel.jpg');
+	background-image: url('../images/ciel.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -88,12 +88,14 @@ img.photocouple{
 #lestemoins {
 	min-height: 100vh;
 	padding: 100px 0 100px;
+	/* width: 1200px; */
+	/* margin: auto; */
 }
 #lestemoins img{
-	margin-left: 50px;
-	margin-right: 50px;
 	border-radius: 50%;
-	height: 20vh;
+	width: 80%;
+	display: block;
+	margin: auto;
 }
 #lestemoins h1 {
 	font-family: "Helvetica Neue",sans-serif;
@@ -109,29 +111,27 @@ img.photocouple{
 	font-size: 1em;
 	font-style: normal;
 	text-align: center;
-	margin-left: 80px;
 }
 #temoinsisabelle {
     padding: 10px;
-    margin-left: 80px;
     float: left;
-    width: 40%;
+    width: 50%;
 }
 #temoinsisabelle1 {
     padding: 30px;
     float: left;
-    width: 40%;
+    width: 50%;
+    min-height: 26em;
 }
 #temoinsisabelle2 {
     padding: 30px;
     float: left;
-    width: 40%;
+    width: 50%;
 }
 #temoinsarnaud {
     padding: 10px;
-    margin-right: 80px;
-    float: right;   
-    width: 40%;
+    float: left;
+    width: 50%;
 }
 #temoinsarnaud1 {
     padding: 30px;
@@ -146,4 +146,11 @@ img.photocouple{
 #lescadeaux {
 	min-height: 100vh;
 	padding: 100px 0 100px;
+}
+.clearfix:after {
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:" ";
+	clear:both;
 }
