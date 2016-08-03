@@ -1,0 +1,156 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-image: url('../images/ciel.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#titre{
+	min-height: 100vh;
+    padding: 10px;
+}
+#menu {
+	position: fixed;
+	display: inline-block;
+	font-size: small;
+}
+#menu a:hover {
+	color: #87ADF2;
+}
+#menu a {
+	text-decoration: none;
+	color: #EBDA95;
+	font-size: 1.5em;
+	margin:1.7em;
+	padding: 0 2em;
+	float: left;
+	}
+#titre h1 {
+	font-family: "Helvetica Neue",sans-serif;
+	color:#EBDA95;
+	font-size: 4em;
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
+img.photocouple{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5em;
+	border-radius: 50%;
+	height: 60vh;
+}
+#datedumariage {
+	padding: 100px 0 100px;
+	font-family: "Helvetica Neue",sans-serif;
+	color: #EBDA95;
+	text-align: center; 		
+	min-height: 100vh;
+}
+#datedumariage img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 40vh;
+}
+#datedumariage h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 4em;
+}
+#datedumariage h2 {
+	font-size: 1.85em;
+	line-height: 1.5em;		 		
+	font-style: italic;
+	line-height: 2em;
+}
+#subsection {
+	width: 320px;
+  	padding: 8px;
+ 	margin: 0 8px;
+  	float: left;
+}
+.subsection.clear {
+	clear: both;
+}
+#datedumariage p {
+	font-family: helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	font-style: italic;
+	line-height:3em;
+}
+#lieudereception {
+	padding: 100px 0 100px;
+	min-height: 100vh;
+}
+#lestemoins {
+	min-height: 100vh;
+	padding: 100px 0 100px;
+	/* width: 1200px; */
+	/* margin: auto; */
+}
+#lestemoins img{
+	border-radius: 50%;
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+#lestemoins h1 {
+	font-family: "Helvetica Neue",sans-serif;
+	color:#EBDA95;
+	font-size: 1.5em;
+	font-style: normal;
+	text-align: center;
+	padding-bottom: 1.7em;
+}
+#lestemoins h2{
+	font-family: "Helvetica Neue",sans-serif;
+	color:#EBDA95;
+	font-size: 1em;
+	font-style: normal;
+	text-align: center;
+}
+#temoinsisabelle {
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+#temoinsisabelle1 {
+    padding: 30px;
+    float: left;
+    width: 50%;
+    min-height: 26em;
+}
+#temoinsisabelle2 {
+    padding: 30px;
+    float: left;
+    width: 50%;
+}
+#temoinsarnaud {
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+#temoinsarnaud1 {
+    padding: 30px;
+    float: left;   
+    width: 40%;
+ }
+#temoinsarnaud2 {
+    padding: 30px;
+    float: left;   
+    width: 40%;
+}
+#lescadeaux {
+	min-height: 100vh;
+	padding: 100px 0 100px;
+}
+.clearfix:after {
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:" ";
+	clear:both;
+}
