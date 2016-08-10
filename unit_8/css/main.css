@@ -1,7 +1,9 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-
+	background-image: url('../images/ciel.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #titre{
 	min-height: 100vh;
@@ -40,7 +42,7 @@ img.photocouple{
 	height: 60vh;
 }
 #datedumariage {
-	padding: 100px 0 100px;
+	padding: 5% 0 5%;
 	font-family: "Helvetica Neue",sans-serif;
 	color: #EBDA95;
 	text-align: center; 		
@@ -50,7 +52,7 @@ img.photocouple{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 700px;
+	width: 70%;
 	height: 40vh;
 }
 #datedumariage h1 {
@@ -64,8 +66,8 @@ img.photocouple{
 	line-height: 2em;
 }
 #subsection {
-	width: 320px;
-  	padding: 8px;
+	width: 32%;
+  	padding: .8%;
  	margin: 0 8px;
   	float: left;
 }
@@ -80,7 +82,7 @@ img.photocouple{
 	line-height:3em;
 }
 #lieudereception {
-	padding: 100px 0 100px;
+	padding: 5% 0 5px;
 	min-height: 100vh;
 	font-family: helvetica, sans-serif;
 	font-size: 1em;
@@ -93,14 +95,13 @@ img.photocouple{
 	width: 40%;
 }
 #lieudereception img{
-  	padding: 10px;
+  	padding: 1%;
  	margin: 0 20px;
  	width: 40%;
 }
 #lestemoins {
 	min-height: 100vh;
-	padding: 100px 0 100px;
-	width: 1200px; 
+	padding: 5% 0 5%;
 	margin: auto; 
 }
 #lestemoins img{
@@ -125,7 +126,7 @@ img.photocouple{
 	text-align: center;
 }
 #temoinsisabelle {
-    padding: 10px;
+    padding: 1%;
     float: left;
     width: 50%;
 }
@@ -161,4 +162,11 @@ img.photocouple{
 	visibility:hidden;
 	content:" ";
 	clear:both;
+}
+@media only screen and (max-width: 1306px) {
+	#menu a {
+		float: none;
+		width: auto;
+	}
+
 }
