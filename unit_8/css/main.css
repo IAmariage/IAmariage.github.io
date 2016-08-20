@@ -33,7 +33,7 @@ header {
 	/* margin:1.7em; */
 	padding: 1em;
 	float: left;
-	width: 20%;
+	width: 16.6%;
 	}
 #titre h1 {
 	font-family: "Helvetica Neue",sans-serif;
@@ -155,7 +155,6 @@ img.photocouple{
     padding: 3%;
     float: left;
     width: 49%;
-    border: 2px solid;
 }
 .temoinsarnaud1 {
 	padding: 3%;
@@ -187,6 +186,10 @@ img.photocouple{
 	visibility:hidden;
 	content:" ";
 	clear:both;
+}
+.iframe {
+	min-height: 100vh;
+	width: 1350px
 }
 @media only screen and (max-width: 1306px) {
 	body {
