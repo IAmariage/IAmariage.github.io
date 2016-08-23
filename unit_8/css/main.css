@@ -60,6 +60,10 @@ img.photocouple{
 	width: 70%;
 	margin: auto;
 }
+#datedumariage p {
+	font-family: "Helvetica Neue",sans-serif;
+	color: grey;
+}
 #datedumariage img {
 	display: block;
 	margin-left: auto;
@@ -95,10 +99,13 @@ img.photocouple{
 	font-family: helvetica, sans-serif;
 	font-size: 1em;
 	line-height: 2em;
-	color: #EBDA95;
+	color: grey;
 	width: 70em;
 	margin: auto;
 	position: relative;
+}
+#lieudereception h2,h1 {
+	color: #EBDA95;
 }
 #direction {
 	float: left;
@@ -193,40 +200,54 @@ img.photocouple{
 }
 @media only screen and (max-width: 1306px) {
 	body {
-		font-size: 13px;
-	}
-	#lieudereception {
-		float: none;
-		width: 0 auto;
+		font-size: 14px;
 	}
 	#menu {
 		float: none;
 		margin: none;
 	}
+	#direction {
+		float: none;
+		margin: none;
+	}
+	#lieudereception img {
+		float: none;
+		margin: none;
+	}
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 667px) {
 	body {
 		font-size: 12px;
+	}
+	#menu {
+		visibility: hidden;
+		display: none;
 	}
 	#datedumariage img {
 		visibility: hidden;
 		display: none;
 	}
+	.subsection {
+		float: none;
+		margin: none;
+		width: 100%;
+	}
 	#datedumariage h1, h2, h3 {
 		margin-top: 1.5em;
 	}
-	.subsection {
-		float: none;
-		margin: 0 auto;
+	#lieudereception img{
+		visibility: hidden;
+		display: none;
 	}
 	#temoinsisabelle {
 		float: none;
 		margin: 0 auto;
+		width: 100%
 	}
 	#temoinsarnaud {
 		float: none;
 		margin: 0 auto;
+		width: 100%;
 	}
-	
 }
 
