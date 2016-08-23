@@ -57,18 +57,14 @@ img.photocouple{
 	text-align: center;
 	min-height: 100vh;
 	padding: 4em 0;
-	width: 70%;
-	margin: auto;
-}
-#datedumariage p {
-	font-family: "Helvetica Neue",sans-serif;
-	color: grey;
+	width: 100%;
+	margin: 0 auto;
 }
 #datedumariage img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	width: 70%;
 }
 #datedumariage h1 {
 	font-family: helvetica, sans-serif;
@@ -84,15 +80,13 @@ img.photocouple{
   	padding: .8%;
  	float: left;
 }
-.subsection.clear {
-	clear: both;
-}
 #datedumariage p {
 	font-family: helvetica, sans-serif;
 	font-size: 1em;
 	line-height: 2em;
 	font-style: italic;
 	line-height:3em;
+	color: grey;
 }
 #lieudereception {
 	/* min-height: 100vh; */
@@ -100,8 +94,8 @@ img.photocouple{
 	font-size: 1em;
 	line-height: 2em;
 	color: grey;
-	width: 70em;
-	margin: auto;
+	width: 70%;
+	margin: 0 auto;
 	position: relative;
 }
 #lieudereception h2,h1 {
@@ -200,28 +194,24 @@ img.photocouple{
 }
 @media only screen and (max-width: 1306px) {
 	body {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	#menu {
-		float: none;
-		margin: none;
-	}
-	#direction {
-		float: none;
-		margin: none;
-	}
-	#lieudereception img {
 		float: none;
 		margin: none;
 	}
 }
 @media only screen and (max-width: 667px) {
 	body {
-		font-size: 12px;
+		font-size: 16px;
 	}
 	#menu {
-		visibility: hidden;
-		display: none;
+		float: none;
+		margin: none;
+		position: static;
+	}
+	#menu a {
+		width: 50%;
 	}
 	#datedumariage img {
 		visibility: hidden;
@@ -229,15 +219,35 @@ img.photocouple{
 	}
 	.subsection {
 		float: none;
-		margin: none;
+		margin: 0 auto;
 		width: 100%;
+		position: static;
+		text-align: center;
 	}
 	#datedumariage h1, h2, h3 {
 		margin-top: 1.5em;
 	}
+	#lieudereception{
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		position: initial;
+		text-align: center;
+	}
+	#direction {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		position: initial;
+		text-align: center;
+		transform: none;
+	}
 	#lieudereception img{
-		visibility: hidden;
-		display: none;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		position: static;
+		text-align: center;
 	}
 	#temoinsisabelle {
 		float: none;
