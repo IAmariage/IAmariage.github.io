@@ -31,9 +31,9 @@ header {
 	color: #EBDA95;
 	font-size: 1.5em;
 	/* margin:1.7em; */
-	padding: 1em;
+	padding: 0.5em;
 	float: left;
-	width: 16.6%;
+	width: 14.2%;
 	}
 #titre h1 {
 	font-family: "Helvetica Neue",sans-serif;
@@ -42,6 +42,10 @@ header {
 	font-style: normal;
 	text-align: center;
 	text-transform: uppercase;
+}
+img.facebook{
+	height: 4vh;
+	padding: 0;
 }
 img.photocouple{
 	display: block;
@@ -109,13 +113,14 @@ img.photocouple{
 	padding: 1%;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-40%);
 }
 #lieudereception img{
 	/* margin-top: 10%; */
+	top: 10%;
 	width: 50%;
 	float: right;
-}
+	}
 #lestemoins {
 	min-height: 100vh;
 	padding-left: 5%;
