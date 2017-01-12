@@ -3,7 +3,7 @@ body {
 	font-size:15px;
 }
 header {
-	background-image: url('../images/montblanc3.jpg');
+	background-image: url('../images/photo3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -38,6 +38,7 @@ header {
 #titre h1 {
 	font-family: "Helvetica Neue",sans-serif;
 	color:#EBDA95;
+	margin-top: 1.7em;
 	font-size: 4em;
 	font-style: normal;
 	text-align: center;
@@ -46,14 +47,6 @@ header {
 img.facebook{
 	height: 4vh;
 	padding: 0;
-}
-img.photocouple{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5em;
-	border-radius: 70%;
-	height: 60vh;
 }
 #datedumariage {
 	font-family: "Helvetica Neue",sans-serif;
@@ -202,8 +195,7 @@ img.photocouple{
 		font-size: 16px;
 	}
 	#menu {
-		float: none;
-		margin: none;
+		display: none;
 	}
 }
 @media only screen and (max-width: 667px) {
@@ -211,9 +203,7 @@ img.photocouple{
 		font-size: 16px;
 	}
 	#menu {
-		float: none;
-		margin: none;
-		position: static;
+		display: none;
 	}
 	#menu a {
 		width: 50%;
