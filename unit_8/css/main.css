@@ -192,15 +192,15 @@ img.facebook{
 }
 @media only screen and (max-width: 1306px) {
 	body {
-		font-size: 16px;
+		font-size: 12px;
 	}
 	#menu {
-		display: none;
+		font-size: 0.9em;
 	}
 }
 @media only screen and (max-width: 667px) {
 	body {
-		font-size: 16px;
+		font-size: 12px;
 	}
 	#menu {
 		display: none;
