@@ -6,6 +6,17 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+ <header id="titre">
+        <nav id="menu" class="clearfix">
+            <a href="#home">home</a>
+            <a href="#profile">Profile</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="facebook lien"><img class="facebook" src="images\facebook.png" alt="Icone Facebook"/></a>
+            <a href="Instagram lien"><img class="instagram" src="images\instagram.png" alt="Icone Instagram"/></a>
+            <a href="LinkedIn lien"><img class="linkedin" src="images\linkedin.png" alt="Icone LinkedIn"/></a>
+        </nav>
+
 
 </body>
 </html>
