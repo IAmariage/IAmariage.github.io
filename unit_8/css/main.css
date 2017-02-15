@@ -2,7 +2,6 @@
 body {
 	font-size:15px;
 }
-
 header {
 	background-image: url('../images/photo3.jpg');
 	background-size: cover;
@@ -21,7 +20,7 @@ header {
 	right: 0;
 	background: #4b759d;
 	text-align: center;
-	border-bottom: 2px solid #FF8000;
+	border-bottom: 2px solid #EBDA95;
 	z-index: 1;
 }
 #menu a:hover {
@@ -29,7 +28,7 @@ header {
 }
 #menu a {
 	text-decoration: none;
-	color: #FF8000;
+	color: #EBDA95;
 	font-size: 1.5em;
 	/* margin:1.7em; */
 	padding: 0.5em;
@@ -38,7 +37,7 @@ header {
 	}
 #titre h1 {
 	font-family: "Helvetica Neue",sans-serif;
-	color:#FF8000;
+	color:#EBDA95;
 	margin-top: 1.7em;
 	font-size: 4em;
 	font-style: normal;
@@ -51,7 +50,7 @@ img.facebook{
 }
 #datedumariage {
 	font-family: "Helvetica Neue",sans-serif;
-	color: #FF8000;
+	color: #EBDA95;
 	text-align: center;
 	min-height: 100vh;
 	padding: 4em 0;
@@ -97,7 +96,7 @@ img.facebook{
 	position: relative;
 }
 #lieudereception h2,h1 {
-	color: #FF8000;
+	color: #EBDA95;
 }
 #direction {
 	float: left;
@@ -130,7 +129,7 @@ img.facebook{
 }
 #lestemoins h1 {
 	font-family: "Helvetica Neue",sans-serif;
-	color:#FF8000;
+	color:#EBDA95;
 	font-size: 1.5em;
 	font-style: normal;
 	text-align: center;
@@ -138,7 +137,7 @@ img.facebook{
 }
 #lestemoins h2{
 	font-family: "Helvetica Neue",sans-serif;
-	color:#FF8000;
+	color:#EBDA95;
 	font-size: 1.2em;
 	font-style: normal;
 	text-align: center;
@@ -175,7 +174,7 @@ img.facebook{
 }
 #lescadeaux h1 {
 	font-family: "Helvetica Neue",sans-serif;
-	color:#FF8000;
+	color:#EBDA95;
 	font-size: 2em;
 	font-style: normal;
 	text-align: center;
