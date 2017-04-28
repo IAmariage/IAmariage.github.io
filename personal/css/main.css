@@ -1,0 +1,115 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-size:15px;
+}
+header {
+	background-image: url('../images/ciel.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#titre{
+	min-height: 100vh;
+    padding: 1%;
+}
+#menu h1 {
+	font-family: "Times New Roman",sans-serif;
+	color:black;
+	margin-top: 1.0em;
+	font-size: 4em;
+	font-style: normal;
+	text-align: center;
+}
+.photoclaire{
+	border-radius: 50%;
+	width: 30%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: absolute;
+   	transform: translate(100%, 55%);
+}
+#menu {
+	position: fixed;
+	display: inline-block;
+	font-size: 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: none;
+	transform: translate(100%, 25%);
+}
+#menu a:hover {
+	color: #87ADF2;
+}
+#menu a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	/* margin:1.7em; */
+	padding: 0.5em;
+	width: 14.2%;
+	}
+#menu img{
+	height: 4vh;
+	padding: 0;
+}
+#cursus {
+	min-height: 100vh;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10%;
+	margin: auto; 
+}
+#cursus img{
+	border-radius: 50%;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+#cursus h1 {
+	font-family: "Helvetica Neue",sans-serif;
+	color:grey;
+	font-size: 1.5em;
+	font-style: normal;
+	text-align: center;
+	padding-bottom: 0.25em;
+}
+#cursus h2{
+	font-family: "Helvetica Neue",sans-serif;
+	color:grey;
+	font-size: 1.2em;
+	font-style: normal;
+	text-align: center;
+}
+#cursus1 {
+    float: left;
+    width: 50%;
+}
+#cursus2 {
+    float: left;
+    width: 50%;
+}
+.cursus1 {
+    padding: 3%;
+    float: left;
+    width: 49%;
+}
+.cursus2 {
+	padding: 3%;
+    float: left;
+    width: 49%;
+ }
+.clearfix:after {
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:" ";
+	clear:both;
+}
+.iframe {
+	min-height: 100vh;
+	width: 1350px
+}
